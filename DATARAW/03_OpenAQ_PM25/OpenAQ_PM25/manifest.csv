@@ -1,0 +1,9 @@
+﻿location_id,sensor_id,season,file,records,days_with_data,expected_days,status
+2161306,7772087,May_Jun_2025,OpenAQ_PM25\May_Jun_2025\location_2161306_sensor_7772087_May_Jun_2025.csv,436,21,61,downloaded
+2161306,7772087,Oct_Nov_2025,OpenAQ_PM25\Oct_Nov_2025\location_2161306_sensor_7772087_Oct_Nov_2025.csv,0,0,61,downloaded
+2161292,7772032,May_Jun_2025,OpenAQ_PM25\May_Jun_2025\location_2161292_sensor_7772032_May_Jun_2025.csv,1388,60,61,downloaded
+2161292,7772032,Oct_Nov_2025,OpenAQ_PM25\Oct_Nov_2025\location_2161292_sensor_7772032_Oct_Nov_2025.csv,1237,52,61,downloaded
+4946812,13502151,May_Jun_2025,OpenAQ_PM25\May_Jun_2025\location_4946812_sensor_13502151_May_Jun_2025.csv,0,0,61,downloaded
+4946812,13502151,Oct_Nov_2025,OpenAQ_PM25\Oct_Nov_2025\location_4946812_sensor_13502151_Oct_Nov_2025.csv,1406,60,61,downloaded
+4946813,13502154,May_Jun_2025,OpenAQ_PM25\May_Jun_2025\location_4946813_sensor_13502154_May_Jun_2025.csv,0,0,61,downloaded
+4946813,13502154,Oct_Nov_2025,OpenAQ_PM25\Oct_Nov_2025\location_4946813_sensor_13502154_Oct_Nov_2025.csv,1384,60,61,downloaded

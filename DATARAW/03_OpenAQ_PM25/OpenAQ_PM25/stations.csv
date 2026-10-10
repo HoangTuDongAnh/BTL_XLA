@@ -1,0 +1,5 @@
+﻿location_id,name,latitude,longitude,timezone,provider,pm25_sensors,url
+2161306,Minh Khai - Bắc Từ Liêm,21.05,105.74,Asia/Bangkok,"{'id': 67, 'name': 'Hanoi Air Quality Monitoring Network'}",1,https://explore.openaq.org/locations/2161306
+2161292,"Số 46, phố Lưu Quang Vũ",21.0152,105.7999,Asia/Bangkok,"{'id': 67, 'name': 'Hanoi Air Quality Monitoring Network'}",1,https://explore.openaq.org/locations/2161292
+4946812,Công viên Nhân Chính - Khuất Duy Tiến,21.0031,105.7947,Asia/Bangkok,"{'id': 67, 'name': 'Hanoi Air Quality Monitoring Network'}",1,https://explore.openaq.org/locations/4946812
+4946813,Số 1 đường Giải Phóng - phường Bạch Mai - ĐHBK ,21.0052,105.8418,Asia/Bangkok,"{'id': 67, 'name': 'Hanoi Air Quality Monitoring Network'}",1,https://explore.openaq.org/locations/4946813
