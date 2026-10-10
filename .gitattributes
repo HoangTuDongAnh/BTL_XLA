@@ -2,3 +2,5 @@ DATARAW/01_VIIRS_Fire/fire_archive_J1V-C2_819485.csv filter=lfs diff=lfs merge=l
 DATARAW/01_VIIRS_Fire/fire_archive_J1V-C2_819488.csv filter=lfs diff=lfs merge=lfs -text
 DATARAW/01_VIIRS_Fire/fire_archive_SV-C2_819486.csv filter=lfs diff=lfs merge=lfs -text
 DATARAW/01_VIIRS_Fire/fire_archive_SV-C2_819489.csv filter=lfs diff=lfs merge=lfs -text
+DATARAW/04_ESA_WorldCover/MAP/ESA_WorldCover_10m_2021_v200_N21E108_Map/ESA_WorldCover_10m_2021_v200_N21E108_Map.tif filter=lfs diff=lfs merge=lfs -text
+DATARAW/04_ESA_WorldCover/MAP/ESA_WorldCover_10m_2021_v200_N21E105_Map/ESA_WorldCover_10m_2021_v200_N21E105_Map.tif filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,56 @@
+{
+  "source": "GADM 4.1 Vietnam ADM1 / gadm41_VNM_1.json",
+  "boundary_unit_count": 11,
+  "boundary_area_km2": 20795.153,
+  "bounding_box_lonlat": [
+    105.2881,
+    19.9356,
+    108.0689,
+    21.6646
+  ],
+  "worldcover_downloaded_km2": 20760.024,
+  "worldcover_missing_km2": 35.129,
+  "worldcover_percent": 99.8311,
+  "modis_downloaded_percent": 100.0,
+  "modis_tiles": [
+    {
+      "tile": "h27v06",
+      "area_intersect_km2": 17635.8173,
+      "share_pct": 84.8073,
+      "downloaded": true
+    },
+    {
+      "tile": "h27v07",
+      "area_intersect_km2": 66.1471,
+      "share_pct": 0.3181,
+      "downloaded": true
+    },
+    {
+      "tile": "h28v06",
+      "area_intersect_km2": 3093.1885,
+      "share_pct": 14.8746,
+      "downloaded": true
+    }
+  ],
+  "worldcover_tiles": [
+    {
+      "tile": "N18E105",
+      "area_intersect_km2": 11114.4183,
+      "share_pct": 53.4472,
+      "downloaded": true
+    },
+    {
+      "tile": "N21E105",
+      "area_intersect_km2": 9645.6053,
+      "share_pct": 46.3839,
+      "downloaded": true
+    },
+    {
+      "tile": "N21E108",
+      "area_intersect_km2": 35.1294,
+      "share_pct": 0.1689,
+      "downloaded": false
+    }
+  ],
+  "note": "Coverage is geometry/tile footprint, not assurance of valid AOD pixels; equal-area EPSG:6933 used; GADM boundary is pre-2025."
+}
