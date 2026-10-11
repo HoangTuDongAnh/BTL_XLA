@@ -1,0 +1,26 @@
+{
+  "generated_utc": "2026-10-11T12:39:02.097097+00:00",
+  "project_root": "E:\\01_UNI\\XLA",
+  "modules": {
+    "aod": {
+      "status": "ok",
+      "result": {
+        "state": "COMPLETED",
+        "input_files": 488,
+        "days_total": 122,
+        "days_processed": 122,
+        "successful_files": 488,
+        "failed_files": 0,
+        "qa_mode": "strict",
+        "resolution_degree": 0.01,
+        "notes": [
+          "Date is source file nominal UTC date; not grouped by each pixel local acquisition time",
+          "Only QA best-quality land retrievals (plus strict clear & adjacency if chosen)",
+          "No gap filling, no haze interpolation; daily raster averages accepted source overpasses",
+          "Per-pixel percentages are output geographic grid cells, not sensor sampling probability",
+          "Failed tiles logged; any such day is incomplete and must not be treated as fully valid"
+        ]
+      }
+    }
+  }
+}

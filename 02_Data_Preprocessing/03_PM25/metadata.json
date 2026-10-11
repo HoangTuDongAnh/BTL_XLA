@@ -1,0 +1,6 @@
+{
+  "minimum_observations_per_day": 18,
+  "daily_rule": "mean of unique local hourly means; minimum distinct local hours",
+  "no_automatic_outlier_deletion": true,
+  "time_zone": "Asia/Ho_Chi_Minh"
+}

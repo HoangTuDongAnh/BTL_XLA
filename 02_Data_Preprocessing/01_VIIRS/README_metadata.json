@@ -1,0 +1,5 @@
+{
+  "type_note": "FIRMS type=0 không đồng nghĩa đốt rơm rạ",
+  "observations_note": "Không gộp các quan trắc từ các vệ tinh thành sự kiện cháy",
+  "time_note": "Lọc mùa theo ngày địa phương; các bản ghi gần biên UTC có thể chuyển mùa"
+}

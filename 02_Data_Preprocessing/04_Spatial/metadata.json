@@ -1,0 +1,6 @@
+{
+  "worldcover_version": "2021 v200",
+  "cropland_code": 40,
+  "categorical_resampling": "nearest",
+  "note": "Subset tile rasters, not mosaic; imagery 2021 used as proxy for land cover 2025"
+}

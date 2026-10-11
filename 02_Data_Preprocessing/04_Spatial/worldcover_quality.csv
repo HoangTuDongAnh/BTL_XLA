@@ -1,0 +1,4 @@
+﻿tile,pixels_in_roi,cropland_pixels,crs,output
+ESA_WorldCover_10m_2021_v200_N18E105_Map.tif,138687828,61449495,EPSG:4326,ESA_WorldCover_10m_2021_v200_N18E105_Map_region.tif
+ESA_WorldCover_10m_2021_v200_N21E105_Map.tif,120829229,22743122,EPSG:4326,ESA_WorldCover_10m_2021_v200_N21E105_Map_region.tif
+ESA_WorldCover_10m_2021_v200_N21E108_Map.tif,440896,20706,EPSG:4326,ESA_WorldCover_10m_2021_v200_N21E108_Map_region.tif

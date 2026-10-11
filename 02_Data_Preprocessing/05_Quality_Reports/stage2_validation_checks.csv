@@ -1,0 +1,33 @@
+﻿test,status,detail
+Input DATARAW exists,PASS,E:\01_UNI\XLA\DATARAW
+Stage2 output exists,PASS,E:\01_UNI\XLA\02_Data_Preprocessing
+AOD COMPLETED 488/488,PASS,"{'state': 'COMPLETED', 'successful_files': 488, 'failed_files': 0, 'days_processed': 122}"
+AOD daily 122 dates exactly,PASS,"rows=122, missing=[], extra=[]"
+AOD daily no failed HDF,PASS,days=122
+AOD coverage 0..100,PASS,range=0.0..99.181
+AOD days with any valid pixels,WARN,zero-coverage days=37
+AOD manifest 488 successful HDF,PASS,rows=488; failed=0
+AOD manifest 4 HDF per date,PASS,"dates=122, unique (day,tile)=488"
+AOD GeoTIFF 122,PASS,found=122
+AOD observation-count TIFF 122,PASS,found=122
+AOD raster metadata AOD_055_2025-05-01.tif,PASS,"CRS=EPSG:4326 shape=174x279, res=(0.01, 0.01)"
+AOD physical plausibility AOD_055_2025-05-01.tif,PASS,count=67 min=0.0 max=0.2460000067949295
+AOD count matches shape AOD_055_2025-05-01.tif,PASS,"count shape=(174, 279)"
+AOD raster metadata AOD_055_2025-10-01.tif,PASS,"CRS=EPSG:4326 shape=174x279, res=(0.01, 0.01)"
+AOD physical plausibility AOD_055_2025-10-01.tif,PASS,count=2183 min=0.0 max=0.326555073261261
+AOD count matches shape AOD_055_2025-10-01.tif,PASS,"count shape=(174, 279)"
+AOD raster metadata AOD_055_2025-11-30.tif,PASS,"CRS=EPSG:4326 shape=174x279, res=(0.01, 0.01)"
+AOD physical plausibility AOD_055_2025-11-30.tif,PASS,count=6490 min=0.014953062869608402 max=0.6800000667572021
+AOD count matches shape AOD_055_2025-11-30.tif,PASS,"count shape=(174, 279)"
+VIIRS season output 2,PASS,"viirs_May_Jun_2025.csv,viirs_Oct_Nov_2025.csv"
+VIIRS not accidentally appended,PASS,output rows=1068; previous run first reported 1068
+VIIRS exact duplicate rows by source/key,PASS,duplicate rows=0
+VIIRS time and period consistent,PASS,bad local time=0; mismatch period=0
+PM25 output matches previous run,PASS,"hourly=5844, daily=255, usable=241"
+PM25 unique sensor+UTC hour,PASS,"rows=5844, duplicates=0"
+PM25 values numeric and nonnegative,PASS,hourly rows=5844
+PM25 usable threshold >=18 hours,PASS,daily rows=255
+Spatial 3 WorldCover tiles,PASS,tiles=3
+Spatial 3 cropped GeoTIFF,PASS,cropped rasters=3
+Spatial 11 provinces and region union,PASS,"provinces=11, region=1"
+Spatial geometries valid,PASS,11 province geometries & union

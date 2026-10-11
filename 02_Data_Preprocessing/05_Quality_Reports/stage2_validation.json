@@ -1,0 +1,239 @@
+{
+  "project": "E:\\01_UNI\\XLA",
+  "validation_status": "PASS_WITH_WARNINGS",
+  "test_counts": {
+    "PASS": 31,
+    "WARN": 1
+  },
+  "tests": [
+    {
+      "test": "Input DATARAW exists",
+      "status": "PASS",
+      "detail": "E:\\01_UNI\\XLA\\DATARAW"
+    },
+    {
+      "test": "Stage2 output exists",
+      "status": "PASS",
+      "detail": "E:\\01_UNI\\XLA\\02_Data_Preprocessing"
+    },
+    {
+      "test": "AOD COMPLETED 488/488",
+      "status": "PASS",
+      "detail": "{'state': 'COMPLETED', 'successful_files': 488, 'failed_files': 0, 'days_processed': 122}"
+    },
+    {
+      "test": "AOD daily 122 dates exactly",
+      "status": "PASS",
+      "detail": "rows=122, missing=[], extra=[]"
+    },
+    {
+      "test": "AOD daily no failed HDF",
+      "status": "PASS",
+      "detail": "days=122"
+    },
+    {
+      "test": "AOD coverage 0..100",
+      "status": "PASS",
+      "detail": "range=0.0..99.181"
+    },
+    {
+      "test": "AOD days with any valid pixels",
+      "status": "WARN",
+      "detail": "zero-coverage days=37"
+    },
+    {
+      "test": "AOD manifest 488 successful HDF",
+      "status": "PASS",
+      "detail": "rows=488; failed=0"
+    },
+    {
+      "test": "AOD manifest 4 HDF per date",
+      "status": "PASS",
+      "detail": "dates=122, unique (day,tile)=488"
+    },
+    {
+      "test": "AOD GeoTIFF 122",
+      "status": "PASS",
+      "detail": "found=122"
+    },
+    {
+      "test": "AOD observation-count TIFF 122",
+      "status": "PASS",
+      "detail": "found=122"
+    },
+    {
+      "test": "AOD raster metadata AOD_055_2025-05-01.tif",
+      "status": "PASS",
+      "detail": "CRS=EPSG:4326 shape=174x279, res=(0.01, 0.01)"
+    },
+    {
+      "test": "AOD physical plausibility AOD_055_2025-05-01.tif",
+      "status": "PASS",
+      "detail": "count=67 min=0.0 max=0.2460000067949295"
+    },
+    {
+      "test": "AOD count matches shape AOD_055_2025-05-01.tif",
+      "status": "PASS",
+      "detail": "count shape=(174, 279)"
+    },
+    {
+      "test": "AOD raster metadata AOD_055_2025-10-01.tif",
+      "status": "PASS",
+      "detail": "CRS=EPSG:4326 shape=174x279, res=(0.01, 0.01)"
+    },
+    {
+      "test": "AOD physical plausibility AOD_055_2025-10-01.tif",
+      "status": "PASS",
+      "detail": "count=2183 min=0.0 max=0.326555073261261"
+    },
+    {
+      "test": "AOD count matches shape AOD_055_2025-10-01.tif",
+      "status": "PASS",
+      "detail": "count shape=(174, 279)"
+    },
+    {
+      "test": "AOD raster metadata AOD_055_2025-11-30.tif",
+      "status": "PASS",
+      "detail": "CRS=EPSG:4326 shape=174x279, res=(0.01, 0.01)"
+    },
+    {
+      "test": "AOD physical plausibility AOD_055_2025-11-30.tif",
+      "status": "PASS",
+      "detail": "count=6490 min=0.014953062869608402 max=0.6800000667572021"
+    },
+    {
+      "test": "AOD count matches shape AOD_055_2025-11-30.tif",
+      "status": "PASS",
+      "detail": "count shape=(174, 279)"
+    },
+    {
+      "test": "VIIRS season output 2",
+      "status": "PASS",
+      "detail": "viirs_May_Jun_2025.csv,viirs_Oct_Nov_2025.csv"
+    },
+    {
+      "test": "VIIRS not accidentally appended",
+      "status": "PASS",
+      "detail": "output rows=1068; previous run first reported 1068"
+    },
+    {
+      "test": "VIIRS exact duplicate rows by source/key",
+      "status": "PASS",
+      "detail": "duplicate rows=0"
+    },
+    {
+      "test": "VIIRS time and period consistent",
+      "status": "PASS",
+      "detail": "bad local time=0; mismatch period=0"
+    },
+    {
+      "test": "PM25 output matches previous run",
+      "status": "PASS",
+      "detail": "hourly=5844, daily=255, usable=241"
+    },
+    {
+      "test": "PM25 unique sensor+UTC hour",
+      "status": "PASS",
+      "detail": "rows=5844, duplicates=0"
+    },
+    {
+      "test": "PM25 values numeric and nonnegative",
+      "status": "PASS",
+      "detail": "hourly rows=5844"
+    },
+    {
+      "test": "PM25 usable threshold >=18 hours",
+      "status": "PASS",
+      "detail": "daily rows=255"
+    },
+    {
+      "test": "Spatial 3 WorldCover tiles",
+      "status": "PASS",
+      "detail": "tiles=3"
+    },
+    {
+      "test": "Spatial 3 cropped GeoTIFF",
+      "status": "PASS",
+      "detail": "cropped rasters=3"
+    },
+    {
+      "test": "Spatial 11 provinces and region union",
+      "status": "PASS",
+      "detail": "provinces=11, region=1"
+    },
+    {
+      "test": "Spatial geometries valid",
+      "status": "PASS",
+      "detail": "11 province geometries & union"
+    }
+  ],
+  "metrics": {
+    "aod_run_status": {
+      "state": "COMPLETED",
+      "input_files": 488,
+      "days_total": 122,
+      "days_processed": 122,
+      "successful_files": 488,
+      "failed_files": 0,
+      "qa_mode": "strict",
+      "resolution_degree": 0.01,
+      "notes": [
+        "Date is source file nominal UTC date; not grouped by each pixel local acquisition time",
+        "Only QA best-quality land retrievals (plus strict clear & adjacency if chosen)",
+        "No gap filling, no haze interpolation; daily raster averages accepted source overpasses",
+        "Per-pixel percentages are output geographic grid cells, not sensor sampling probability",
+        "Failed tiles logged; any such day is incomplete and must not be treated as fully valid"
+      ]
+    },
+    "aod_coverage_pct": {
+      "minimum": 0.0,
+      "mean": 15.682,
+      "maximum": 99.181,
+      "days_with_zero_valid_pixels": 37,
+      "days_lt_10pct": 83
+    },
+    "aod_sample_tiffs": [
+      {
+        "filename": "AOD_055_2025-05-01.tif",
+        "valid_pixels": 67,
+        "mean": 0.11828228831291199,
+        "min": 0.0,
+        "max": 0.2460000067949295
+      },
+      {
+        "filename": "AOD_055_2025-10-01.tif",
+        "valid_pixels": 2183,
+        "mean": 0.1038016825914383,
+        "min": 0.0,
+        "max": 0.326555073261261
+      },
+      {
+        "filename": "AOD_055_2025-11-30.tif",
+        "valid_pixels": 6490,
+        "mean": 0.36463868618011475,
+        "min": 0.014953062869608402,
+        "max": 0.6800000667572021
+      }
+    ],
+    "viirs": {
+      "rows": 1068,
+      "per_period": {
+        "viirs_May_Jun_2025": 414,
+        "viirs_Oct_Nov_2025": 654
+      },
+      "duplicate_source_observations": 0
+    },
+    "pm25": {
+      "hourly_rows": 5844,
+      "daily_rows": 255,
+      "usable_daily_rows": 241
+    }
+  },
+  "scientific_notes": [
+    "Báo cáo stage2_run_report.json thường chỉ chứa module chạy cuối; không dùng làm bằng chứng đã chạy đủ 4 module.",
+    "VIIRS CSV được ghi append bởi phiên bản src/viirs.py cũ: không chạy lại VIIRS trước khi sửa tính idempotent.",
+    "PM2.5 ngưỡng 18 giờ/ngày là quyết định phương pháp, cần ghi trong báo cáo; các ngoại lệ >500 µg/m³ được cảnh báo chứ chưa loại.",
+    "Ngày AOD là ngày UTC danh định; không suy diễn thời gian quan trắc từng pixel đã được chuyển UTC+7.",
+    "WorldCover 2021 là đại diện loại đất cho năm 2025; VIIRS chưa phải đốt rơm rạ trước overlay Cropland ở Công đoạn 3."
+  ]
+}

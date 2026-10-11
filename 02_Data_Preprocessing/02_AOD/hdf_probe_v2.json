@@ -1,0 +1,108 @@
+[
+  {
+    "file": "MCD19A2.A2025121.h27v06.061.2025125155800.hdf",
+    "datasets": {
+      "Optical_Depth_055": {
+        "info": [
+          "Optical_Depth_055",
+          3,
+          [
+            4,
+            1200,
+            1200
+          ],
+          22,
+          6
+        ],
+        "attributes": {
+          "long_name": "AOD at 0.55 micron",
+          "scale_factor": 0.001,
+          "add_offset": 0.0,
+          "unit": "none",
+          "_FillValue": -28672,
+          "valid_range": [
+            -100,
+            6000
+          ]
+        }
+      },
+      "AOD_QA": {
+        "info": [
+          "AOD_QA",
+          3,
+          [
+            4,
+            1200,
+            1200
+          ],
+          23,
+          5
+        ],
+        "attributes": {
+          "long_name": "AOD_QA",
+          "unit": "none",
+          "data description": "Bits\tDefinition\n0-2    Cloud Mask\n       000 --- Undefined\n       001 --- Clear\n       010 --- Possible Cloudy\n       011 --- Cloudy \n       101 --- Cloud shadow\n       110 --- Fire hotspot\n       111 --- Water Sediments\n3-4    Land Water Snow/ice  Mask\n       00 --- Land\n       01 --- Water\n       10 --- Snow\n       11 --- Ice\n5-7  Adjacency Mask\n       000 --- Normal condition/clear\n       001 --- Adjacent to cloud\n       010 --- Surrounded by more than 8 cloudy pixels\n       011 --- Adjacent to a single cloudy pixel\n       100 --- Adjacent to snow\n       101 --- Snow was previously detected for this pixel\n8-11 QA AOD \n       0000 --- Best quality \n       0001 --- Water Sediments are detected (water)\n       0011 --- There is 1 neighbor cloud\n       0100 --- There is >1 neighbor clouds\n       0101 --- no retrieval (cloudy, or whatever)\n       0110 --- no retrievals near detected or previously detected snow\n       0111 --- Climatology AOD: altituide above 3.5km(Water), and 4.2km(Land)\n       1000 --- no retrieval due to sun glint (water)\n       1001 --- retrieved AOD is low (<0.05) due to glint\n       1010 --- AOD within +-2km from the coastline is replaced by nearby AOD\n       1011 --- Land, Research Quality: AOD retrieved but CM is possibly cloudy\n12    Glint mask\n       0 --- glint is not detected\n       1 --- glint is detected (glint angle < 40 degree)\n13-14 Aerosol model\n       00 --- background model(regional)\n       01 --- Smoke model (regional)\n       10 --- Dust model\n15  Reserved\n     \n",
+          "_FillValue": 0,
+          "valid_range": [
+            1,
+            65535
+          ]
+        }
+      }
+    },
+    "projection_present": true
+  },
+  {
+    "file": "MCD19A2.A2025334.h28v07.061.2025336120853.hdf",
+    "datasets": {
+      "Optical_Depth_055": {
+        "info": [
+          "Optical_Depth_055",
+          3,
+          [
+            4,
+            1200,
+            1200
+          ],
+          22,
+          6
+        ],
+        "attributes": {
+          "long_name": "AOD at 0.55 micron",
+          "scale_factor": 0.001,
+          "add_offset": 0.0,
+          "unit": "none",
+          "_FillValue": -28672,
+          "valid_range": [
+            -100,
+            6000
+          ]
+        }
+      },
+      "AOD_QA": {
+        "info": [
+          "AOD_QA",
+          3,
+          [
+            4,
+            1200,
+            1200
+          ],
+          23,
+          5
+        ],
+        "attributes": {
+          "long_name": "AOD_QA",
+          "unit": "none",
+          "data description": "Bits\tDefinition\n0-2    Cloud Mask\n       000 --- Undefined\n       001 --- Clear\n       010 --- Possible Cloudy\n       011 --- Cloudy \n       101 --- Cloud shadow\n       110 --- Fire hotspot\n       111 --- Water Sediments\n3-4    Land Water Snow/ice  Mask\n       00 --- Land\n       01 --- Water\n       10 --- Snow\n       11 --- Ice\n5-7  Adjacency Mask\n       000 --- Normal condition/clear\n       001 --- Adjacent to cloud\n       010 --- Surrounded by more than 8 cloudy pixels\n       011 --- Adjacent to a single cloudy pixel\n       100 --- Adjacent to snow\n       101 --- Snow was previously detected for this pixel\n8-11 QA AOD \n       0000 --- Best quality \n       0001 --- Water Sediments are detected (water)\n       0011 --- There is 1 neighbor cloud\n       0100 --- There is >1 neighbor clouds\n       0101 --- no retrieval (cloudy, or whatever)\n       0110 --- no retrievals near detected or previously detected snow\n       0111 --- Climatology AOD: altituide above 3.5km(Water), and 4.2km(Land)\n       1000 --- no retrieval due to sun glint (water)\n       1001 --- retrieved AOD is low (<0.05) due to glint\n       1010 --- AOD within +-2km from the coastline is replaced by nearby AOD\n       1011 --- Land, Research Quality: AOD retrieved but CM is possibly cloudy\n12    Glint mask\n       0 --- glint is not detected\n       1 --- glint is detected (glint angle < 40 degree)\n13-14 Aerosol model\n       00 --- background model(regional)\n       01 --- Smoke model (regional)\n       10 --- Dust model\n15  Reserved\n     \n",
+          "_FillValue": 0,
+          "valid_range": [
+            1,
+            65535
+          ]
+        }
+      }
+    },
+    "projection_present": true
+  }
+]
