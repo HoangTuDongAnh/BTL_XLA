@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project_root_hint": ".",
+  "raw_dir": "DATARAW",
+  "groups": {
+    "viirs": "DATARAW/01_VIIRS_Fire",
+    "aod": "DATARAW/02_MODIS_MAIAC_AOD",
+    "pm25": "DATARAW/03_OpenAQ_PM25",
+    "worldcover": "DATARAW/04_ESA_WorldCover",
+    "boundary": "DATARAW/05_GADM_Boundary"
+  },
+  "output_dir": "02_Data_Preprocessing",
+  "periods": {
+    "May_Jun_2025": [
+      "2025-05-01",
+      "2025-06-30"
+    ],
+    "Oct_Nov_2025": [
+      "2025-10-01",
+      "2025-11-30"
+    ]
+  },
+  "region_file": "DATARAW/05_GADM_Boundary/red_river_delta_union.geojson",
+  "notes": "Paths are relative to project root; inventory does not validate scientific data quality."
+}

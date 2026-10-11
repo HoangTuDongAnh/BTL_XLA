@@ -1,0 +1,59 @@
+{
+  "generated_at_utc": "2026-10-11T11:56:20.931536+00:00",
+  "project_root_local": "E:\\01_UNI\\XLA",
+  "raw_dir_local": "E:\\01_UNI\\XLA\\DATARAW",
+  "groups": {
+    "viirs": {
+      "folder": "01_VIIRS_Fire",
+      "files": 5,
+      "bytes": 840442386,
+      "extensions": {
+        ".csv": 4,
+        ".txt": 1
+      }
+    },
+    "aod": {
+      "folder": "02_MODIS_MAIAC_AOD",
+      "files": 492,
+      "bytes": 3244317037,
+      "extensions": {
+        ".csv": 2,
+        ".hdf": 488,
+        ".py": 1,
+        ".txt": 1
+      }
+    },
+    "pm25": {
+      "folder": "03_OpenAQ_PM25",
+      "files": 16,
+      "bytes": 1087351,
+      "extensions": {
+        ".csv": 13,
+        ".md": 1,
+        ".py": 1,
+        ".txt": 1
+      }
+    },
+    "worldcover": {
+      "folder": "04_ESA_WorldCover",
+      "files": 6,
+      "bytes": 324159122,
+      "extensions": {
+        ".tif": 6
+      }
+    },
+    "boundary": {
+      "folder": "05_GADM_Boundary",
+      "files": 8,
+      "bytes": 444505,
+      "extensions": {
+        ".csv": 3,
+        ".geojson": 3,
+        ".json": 1,
+        ".txt": 1
+      }
+    }
+  },
+  "inventory_file_count": 527,
+  "issues": []
+}
