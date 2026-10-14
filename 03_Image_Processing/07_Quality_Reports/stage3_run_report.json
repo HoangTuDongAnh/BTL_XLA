@@ -1,0 +1,168 @@
+{
+  "overlay": {
+    "status": "OK",
+    "result": {
+      "total": 1068,
+      "cropland": 122,
+      "non_cropland": 946,
+      "unknown": 0,
+      "input_csvs": [
+        "viirs_May_Jun_2025.csv",
+        "viirs_Oct_Nov_2025.csv"
+      ],
+      "land_rasters": [
+        "ESA_WorldCover_10m_2021_v200_N18E105_Map_region.tif",
+        "ESA_WorldCover_10m_2021_v200_N21E105_Map_region.tif",
+        "ESA_WorldCover_10m_2021_v200_N21E108_Map_region.tif"
+      ],
+      "worldcover_year": 2021,
+      "viirs_year": 2025,
+      "note": "Cropland hotspot is not proof of rice-straw burning."
+    }
+  },
+  "fire": {
+    "status": "OK",
+    "result": {
+      "cropland_points": 122,
+      "weeks_with_detections": 15,
+      "density_resolution_m": 1000,
+      "province_statistics_rows": 170
+    }
+  },
+  "aod_weekly": {
+    "status": "OK",
+    "result": {
+      "weeks": 18,
+      "valid_daily_rasters": 122,
+      "mean_weekly_coverage_pct": 16.639
+    }
+  },
+  "aod_interpolation": {
+    "status": "OK",
+    "result": {
+      "holdout_candidate_pixels": 93124,
+      "holdout_selected_pixels": 9155,
+      "holdout_predicted_pixels": 8696,
+      "mae": 0.07185662646571014,
+      "rmse": 0.09466436789926076,
+      "caveat": "random pixel-level holdout among cells with observed previous/next nominal day; optimistic vs true long cloud gaps; no claims for days with no neighboring observations",
+      "days_total": 122,
+      "total_source_cells": 345592,
+      "total_new_estimated_cells": 49004,
+      "method": "strict symmetric 1..max_gap-day temporal neighbor interpolation, no extrapolation, do not cross season boundaries",
+      "max_gap_days_per_side": 2,
+      "evaluation_seed": 42,
+      "holdout_fraction": 0.1
+    }
+  },
+  "visual": {
+    "status": "OK",
+    "result": {
+      "figures": 3
+    }
+  },
+  "validate": {
+    "status": "OK",
+    "result": {
+      "status": "PASS",
+      "counts": {
+        "PASS": 17,
+        "WARN": 0,
+        "FAIL": 0
+      },
+      "checks": [
+        {
+          "test": "overlay CSV exists",
+          "status": "PASS",
+          "detail": "E:\\01_UNI\\XLA\\03_Image_Processing\\01_Cropland_Overlay\\viirs_cropland_overlay.csv"
+        },
+        {
+          "test": "VIIRS 1068 observations",
+          "status": "PASS",
+          "detail": "1068"
+        },
+        {
+          "test": "VIIRS land classes populated",
+          "status": "PASS",
+          "detail": "{'Non-Cropland': 946, 'Cropland': 122}"
+        },
+        {
+          "test": "All VIIRS assigned valid week",
+          "status": "PASS",
+          "detail": "0"
+        },
+        {
+          "test": "Overlay class reconciliation",
+          "status": "PASS",
+          "detail": "{'total': 1068, 'cropland': 122, 'non_cropland': 946, 'unknown': 0, 'input_csvs': ['viirs_May_Jun_2025.csv', 'viirs_Oct_Nov_2025.csv'], 'land_rasters': ['ESA_WorldCover_10m_2021_v200_N18E105_Map_region.tif', 'ESA_WorldCover_10m_2021_v200_N21E105_Map_region.tif', 'ESA_WorldCover_10m_2021_v200_N21E108_Map_region.tif'], 'worldcover_year': 2021, 'viirs_year': 2025, 'note': 'Cropland hotspot is not proof of rice-straw burning.'}"
+        },
+        {
+          "test": "Density quality exists",
+          "status": "PASS",
+          "detail": "E:\\01_UNI\\XLA\\03_Image_Processing\\02_Fire_Density\\density_quality.csv"
+        },
+        {
+          "test": "Raster point counts reconciled",
+          "status": "PASS",
+          "detail": "0"
+        },
+        {
+          "test": "All Cropland records represented in density",
+          "status": "PASS",
+          "detail": "122"
+        },
+        {
+          "test": "AOD weekly quality exists",
+          "status": "PASS",
+          "detail": "E:\\01_UNI\\XLA\\03_Image_Processing\\04_AOD_Weekly\\weekly_quality.csv"
+        },
+        {
+          "test": "AOD days exactly 122",
+          "status": "PASS",
+          "detail": "122"
+        },
+        {
+          "test": "AOD coverage within range",
+          "status": "PASS",
+          "detail": "[0.0639, 36.9855]"
+        },
+        {
+          "test": "Weekly rasters pairs",
+          "status": "PASS",
+          "detail": "18"
+        },
+        {
+          "test": "Interpolated AOD report exists",
+          "status": "PASS",
+          "detail": "E:\\01_UNI\\XLA\\03_Image_Processing\\05_AOD_Interpolation\\interpolation_daily_quality.csv"
+        },
+        {
+          "test": "Interpolation 122 days",
+          "status": "PASS",
+          "detail": "122"
+        },
+        {
+          "test": "Interpolated 122 TIFFs",
+          "status": "PASS",
+          "detail": "122"
+        },
+        {
+          "test": "Provenance 122 TIFFs",
+          "status": "PASS",
+          "detail": "122"
+        },
+        {
+          "test": "Holdout has evaluated pixels",
+          "status": "PASS",
+          "detail": "8696"
+        }
+      ],
+      "scientific_warnings": [
+        "AOD dates are nominal NASA UTC dates, VIIRS uses UTC+7 local date; not identical acquisition-time clock",
+        "Interpolated AOD is model-estimated, not measured; preserve provenance",
+        "2021 WorldCover vs 2025 VIIRS, Cropland detection is not direct evidence of rice-straw burning",
+        "Low AOD coverage strict QA; weekly means are valid-pixel only"
+      ]
+    }
+  }
+}

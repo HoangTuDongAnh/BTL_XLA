@@ -1,0 +1,18 @@
+﻿test,status,detail
+overlay CSV exists,PASS,E:\01_UNI\XLA\03_Image_Processing\01_Cropland_Overlay\viirs_cropland_overlay.csv
+VIIRS 1068 observations,PASS,1068
+VIIRS land classes populated,PASS,"{'Non-Cropland': 946, 'Cropland': 122}"
+All VIIRS assigned valid week,PASS,0
+Overlay class reconciliation,PASS,"{'total': 1068, 'cropland': 122, 'non_cropland': 946, 'unknown': 0, 'input_csvs': ['viirs_May_Jun_2025.csv', 'viirs_Oct_Nov_2025.csv'], 'land_rasters': ['ESA_WorldCover_10m_2021_v200_N18E105_Map_region.tif', 'ESA_WorldCover_10m_2021_v200_N21E105_Map_region.tif', 'ESA_WorldCover_10m_2021_v200_N21E108_Map_region.tif'], 'worldcover_year': 2021, 'viirs_year': 2025, 'note': 'Cropland hotspot is not proof of rice-straw burning.'}"
+Density quality exists,PASS,E:\01_UNI\XLA\03_Image_Processing\02_Fire_Density\density_quality.csv
+Raster point counts reconciled,PASS,0
+All Cropland records represented in density,PASS,122
+AOD weekly quality exists,PASS,E:\01_UNI\XLA\03_Image_Processing\04_AOD_Weekly\weekly_quality.csv
+AOD days exactly 122,PASS,122
+AOD coverage within range,PASS,"[0.0639, 36.9855]"
+Weekly rasters pairs,PASS,18
+Interpolated AOD report exists,PASS,E:\01_UNI\XLA\03_Image_Processing\05_AOD_Interpolation\interpolation_daily_quality.csv
+Interpolation 122 days,PASS,122
+Interpolated 122 TIFFs,PASS,122
+Provenance 122 TIFFs,PASS,122
+Holdout has evaluated pixels,PASS,8696

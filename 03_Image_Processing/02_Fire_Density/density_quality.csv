@@ -1,0 +1,16 @@
+﻿period,week_id,input_cropland_points,raster_sum,max_cell_count
+May_Jun_2025,May_Jun_2025_W01,6,6,2
+May_Jun_2025,May_Jun_2025_W02,10,10,3
+May_Jun_2025,May_Jun_2025_W05,7,7,1
+May_Jun_2025,May_Jun_2025_W06,4,4,1
+May_Jun_2025,May_Jun_2025_W07,1,1,1
+May_Jun_2025,May_Jun_2025_W08,8,8,2
+May_Jun_2025,May_Jun_2025_W09,3,3,3
+Oct_Nov_2025,Oct_Nov_2025_W01,3,3,1
+Oct_Nov_2025,Oct_Nov_2025_W02,12,12,2
+Oct_Nov_2025,Oct_Nov_2025_W03,9,9,2
+Oct_Nov_2025,Oct_Nov_2025_W04,5,5,2
+Oct_Nov_2025,Oct_Nov_2025_W06,1,1,1
+Oct_Nov_2025,Oct_Nov_2025_W07,12,12,3
+Oct_Nov_2025,Oct_Nov_2025_W08,21,21,5
+Oct_Nov_2025,Oct_Nov_2025_W09,20,20,4

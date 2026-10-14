@@ -1,0 +1,16 @@
+{
+  "aggregation": "unweighted arithmetic mean of valid nominal-UTC daily rasters",
+  "no_gap_filling": true,
+  "count_nodata_note": "count 0 is no valid observation, not missing count",
+  "weeks": "7-day bins anchored separately at May 1 and Oct 1; final bin may be shorter",
+  "periods": {
+    "May_Jun_2025": [
+      "2025-05-01",
+      "2025-06-30"
+    ],
+    "Oct_Nov_2025": [
+      "2025-10-01",
+      "2025-11-30"
+    ]
+  }
+}

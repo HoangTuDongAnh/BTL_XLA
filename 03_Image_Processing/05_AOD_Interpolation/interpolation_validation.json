@@ -1,0 +1,15 @@
+{
+  "holdout_candidate_pixels": 93124,
+  "holdout_selected_pixels": 9155,
+  "holdout_predicted_pixels": 8696,
+  "mae": 0.07185662646571014,
+  "rmse": 0.09466436789926076,
+  "caveat": "random pixel-level holdout among cells with observed previous/next nominal day; optimistic vs true long cloud gaps; no claims for days with no neighboring observations",
+  "days_total": 122,
+  "total_source_cells": 345592,
+  "total_new_estimated_cells": 49004,
+  "method": "strict symmetric 1..max_gap-day temporal neighbor interpolation, no extrapolation, do not cross season boundaries",
+  "max_gap_days_per_side": 2,
+  "evaluation_seed": 42,
+  "holdout_fraction": 0.1
+}
