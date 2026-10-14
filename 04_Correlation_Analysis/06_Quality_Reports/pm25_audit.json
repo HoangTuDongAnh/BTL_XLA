@@ -1,0 +1,8 @@
+{
+  "raw_day_sensor_rows": 255,
+  "valid_day_sensor_rows": 241,
+  "valid_day_location_rows": 241,
+  "minimum_distinct_hours": 18,
+  "days_with_any_station": 115,
+  "warning": "Mean of available locations; geographic representativeness not established"
+}

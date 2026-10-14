@@ -1,0 +1,7 @@
+{
+  "main_tests": 60,
+  "main_computable": 60,
+  "sensitivity_tests": 168,
+  "main_fdr_family": "all main comparisons x all seasons x all lags for each coefficient separately",
+  "warning": "Nominal UTC AOD days compared with local VIIRS/PM25 dates. Exploratory, not causal; naive p-values do not correct temporal autocorrelation."
+}

@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "counts": {
+    "PASS": 12
+  },
+  "checks": [
+    {
+      "test": "122 calendar days",
+      "status": "PASS",
+      "detail": "122"
+    },
+    {
+      "test": "Unique season/calendar date",
+      "status": "PASS",
+      "detail": "duplicate rows"
+    },
+    {
+      "test": "Total Cropland events",
+      "status": "PASS",
+      "detail": "122"
+    },
+    {
+      "test": "Fire regional partition",
+      "status": "PASS",
+      "detail": "RRD = Hanoi + surrounding"
+    },
+    {
+      "test": "No negative Cropland detections",
+      "status": "PASS",
+      "detail": "counts >=0"
+    },
+    {
+      "test": "PM25 nonnegative or missing",
+      "status": "PASS",
+      "detail": "PM25"
+    },
+    {
+      "test": "AOD coverage in 0..100",
+      "status": "PASS",
+      "detail": "AOD grid coverage"
+    },
+    {
+      "test": "AOD missing when insufficient source pixels",
+      "status": "PASS",
+      "detail": "AOD pixel threshold"
+    },
+    {
+      "test": "Main correlations have 60 rows",
+      "status": "PASS",
+      "detail": "60"
+    },
+    {
+      "test": "Correlations bounded",
+      "status": "PASS",
+      "detail": "[-1,1]"
+    },
+    {
+      "test": "No unjustified statistics",
+      "status": "PASS",
+      "detail": "no coefficient when n insufficient"
+    },
+    {
+      "test": "Lag pairs within seasons",
+      "status": "PASS",
+      "detail": "lag=3, pairs=111"
+    }
+  ],
+  "scientific_warnings": [
+    "Association not causation",
+    "Nominal UTC AOD vs local day",
+    "AOD often absent: report n per pair",
+    "Multiple tests + autocorrelation",
+    "Uneven PM25 station availability"
+  ]
+}

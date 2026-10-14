@@ -1,0 +1,7 @@
+{
+  "input_rows": 1068,
+  "cropland_points": 122,
+  "days": 122,
+  "fire_total": 122,
+  "note": "0 indicates no FIRMS Cropland detection in supplied archive, not absence of burning"
+}

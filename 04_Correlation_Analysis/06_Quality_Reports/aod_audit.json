@@ -1,0 +1,8 @@
+{
+  "days": 122,
+  "days_with_original_value": 52,
+  "days_with_filled_value": 58,
+  "min_source_pixels": 5,
+  "date_note": "NASA nominal UTC filename day, not a pixel-level timezone conversion",
+  "coverage_note": "Denominator is geographic grid cells with centers inside Hanoi; not valid satellite retrieval count"
+}

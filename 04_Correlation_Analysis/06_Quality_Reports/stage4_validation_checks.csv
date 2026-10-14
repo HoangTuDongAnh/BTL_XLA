@@ -1,0 +1,13 @@
+﻿test,status,detail
+122 calendar days,PASS,122
+Unique season/calendar date,PASS,duplicate rows
+Total Cropland events,PASS,122
+Fire regional partition,PASS,RRD = Hanoi + surrounding
+No negative Cropland detections,PASS,counts >=0
+PM25 nonnegative or missing,PASS,PM25
+AOD coverage in 0..100,PASS,AOD grid coverage
+AOD missing when insufficient source pixels,PASS,AOD pixel threshold
+Main correlations have 60 rows,PASS,60
+Correlations bounded,PASS,"[-1,1]"
+No unjustified statistics,PASS,no coefficient when n insufficient
+Lag pairs within seasons,PASS,"lag=3, pairs=111"
