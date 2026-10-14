@@ -1,0 +1,7 @@
+﻿season,comparison,max_abs_lag,max_abs_r,note
+May_Jun_2025,fire_pm25,0,-0.1143255470761701,selection over 4 lags; exploratory
+May_Jun_2025,fire_aod,2,0.40326111910098367,selection over 4 lags; exploratory
+May_Jun_2025,aod_pm25,0,0.4477422133463716,selection over 4 lags; exploratory
+Oct_Nov_2025,fire_pm25,2,0.6193793543990362,selection over 4 lags; exploratory
+Oct_Nov_2025,fire_aod,0,-0.16862659976334776,selection over 4 lags; exploratory
+Oct_Nov_2025,aod_pm25,2,-0.44592853534236776,selection over 4 lags; exploratory

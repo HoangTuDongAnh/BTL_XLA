@@ -1,0 +1,8 @@
+{
+  "days_evaluated": 6,
+  "candidate_days_reaching_min_pixels": 6,
+  "original_daily_rasters": 122,
+  "block_size_pixels": 8,
+  "evaluation": "masked spatial block, one day in time, symmetric prev/next",
+  "limitations": "Synthetic masked blocks only where target and both neighboring days are observed; not a realistic long cloud gap, not a spatial interpolation benchmark. Pixels in same block are spatially dependent."
+}

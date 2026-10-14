@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "input_files": {
+    "daily": "E:\\01_UNI\\XLA\\04_Correlation_Analysis\\01_Daily_Dataset\\daily_analysis_dataset.csv",
+    "stations": "E:\\01_UNI\\XLA\\04_Correlation_Analysis\\01_Daily_Dataset\\pm25_daily_station.csv",
+    "lag": "E:\\01_UNI\\XLA\\04_Correlation_Analysis\\02_Correlation\\lag_correlation_results.csv",
+    "sensitivity": "E:\\01_UNI\\XLA\\04_Correlation_Analysis\\04_Sensitivity\\sensitivity_results.csv",
+    "fire": "E:\\01_UNI\\XLA\\03_Image_Processing\\03_Fire_Statistics\\fire_by_province_week_class.csv",
+    "aod_weekly": "E:\\01_UNI\\XLA\\03_Image_Processing\\04_AOD_Weekly\\weekly_quality.csv",
+    "aod_interp": "E:\\01_UNI\\XLA\\03_Image_Processing\\05_AOD_Interpolation\\interpolation_validation.json"
+  },
+  "validation": {
+    "PASS": 15,
+    "WARN": 0,
+    "FAIL": 0
+  }
+}

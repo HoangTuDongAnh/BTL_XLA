@@ -1,0 +1,9 @@
+{
+  "evaluated_correlations": 24,
+  "bootstrap_reps": 1200,
+  "bootstrap_block_matched_rows": 7,
+  "circular_shift_test": "within-season full-calendar circular shifts excluding close shifts, exploratory; null shifts not independent",
+  "bootstrap_caveat": "matched-pair block bootstrap compresses missing dates, particularly for AOD; interpret AOD intervals cautiously",
+  "multiple_lag_caveat": "best lag selected post hoc; no familywise correction for bootstrap/shift procedures",
+  "causal_claim": false
+}

@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "counts": {
+    "PASS": 15,
+    "WARN": 0,
+    "FAIL": 0
+  },
+  "checks": [
+    {
+      "test": "122 date records",
+      "status": "PASS",
+      "detail": "122"
+    },
+    {
+      "test": "Unique period/date",
+      "status": "PASS",
+      "detail": "period,date unique"
+    },
+    {
+      "test": "Cropland observations preserved",
+      "status": "PASS",
+      "detail": "122"
+    },
+    {
+      "test": "Fire split reconciled",
+      "status": "PASS",
+      "detail": "RRD = Hanoi + surrounding"
+    },
+    {
+      "test": "Original AOD not replaced",
+      "status": "PASS",
+      "detail": "missing original not silently overwritten"
+    },
+    {
+      "test": "Correlation inputs preserved",
+      "status": "PASS",
+      "detail": "60"
+    },
+    {
+      "test": "No coefficient outside bounds",
+      "status": "PASS",
+      "detail": "pearson range"
+    },
+    {
+      "test": "Bootstrap results exist",
+      "status": "PASS",
+      "detail": "bootstrap file"
+    },
+    {
+      "test": "Bootstrap all season-comparison-lag",
+      "status": "PASS",
+      "detail": "24"
+    },
+    {
+      "test": "Shift null results exist",
+      "status": "PASS",
+      "detail": "shift file"
+    },
+    {
+      "test": "AOD blocked holdout evaluated",
+      "status": "PASS",
+      "detail": "days 6"
+    },
+    {
+      "test": "AOD two-method comparison",
+      "status": "PASS",
+      "detail": "['previous_day_baseline', 'temporal_symmetric_1day']"
+    },
+    {
+      "test": "Final dataset exists",
+      "status": "PASS",
+      "detail": "daily file"
+    },
+    {
+      "test": "Dashboard exists",
+      "status": "PASS",
+      "detail": "app/streamlit_app.py"
+    },
+    {
+      "test": "Figures exist",
+      "status": "PASS",
+      "detail": "PNG count"
+    }
+  ],
+  "scope": "QA of tabular outputs; raster pixel audit limited to blocked AOD sample; Streamlit browser UI must be manually tested"
+}

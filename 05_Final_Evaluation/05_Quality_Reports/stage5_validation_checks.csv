@@ -1,0 +1,16 @@
+﻿test,status,detail
+122 date records,PASS,122
+Unique period/date,PASS,"period,date unique"
+Cropland observations preserved,PASS,122
+Fire split reconciled,PASS,RRD = Hanoi + surrounding
+Original AOD not replaced,PASS,missing original not silently overwritten
+Correlation inputs preserved,PASS,60
+No coefficient outside bounds,PASS,pearson range
+Bootstrap results exist,PASS,bootstrap file
+Bootstrap all season-comparison-lag,PASS,24
+Shift null results exist,PASS,shift file
+AOD blocked holdout evaluated,PASS,days 6
+AOD two-method comparison,PASS,"['previous_day_baseline', 'temporal_symmetric_1day']"
+Final dataset exists,PASS,daily file
+Dashboard exists,PASS,app/streamlit_app.py
+Figures exist,PASS,PNG count

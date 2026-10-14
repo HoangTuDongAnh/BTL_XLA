@@ -1,0 +1,13 @@
+{
+  "days": 122,
+  "pm25_days": 115,
+  "aod_original_days": 52,
+  "cropland_detections": 122,
+  "lag_rows": 60,
+  "notes": [
+    "No causal inference",
+    "AOD nominal UTC vs VIIRS/PM25 UTC+7",
+    "WorldCover 2021 vs VIIRS 2025",
+    "Interpolated AOD not used in primary comparisons"
+  ]
+}
